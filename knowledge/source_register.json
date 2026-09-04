@@ -1,4 +1,11 @@
 {
-  "sources": [],
-  "notes": "Register approved sources here with owner, date, scope, and verification status."
+  "documents": [
+    {
+      "id": "makerere-official-source-register",
+      "title": "Makerere University Official Information Sources",
+      "category": "institutional",
+      "authority": "Makerere University"
+    }
+  ],
+  "notes": "Replace this scaffold entry with individually verified official documents before production use."
 }
