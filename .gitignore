@@ -1,0 +1,23 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.env
+.venv/
+venv/
+ENV/
+
+# Databases & Vector Stores
+*.db
+*.sqlite3
+knowledge/chroma_db/
+knowledge/raw/*.pdf
+
+# IDE & OS
+.idea/
+.DS_Store
+Thumbs.db
+
+# Logs & Traces
+*.log
+evidence/traces/*.json
