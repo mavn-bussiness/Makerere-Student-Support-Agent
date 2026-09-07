@@ -21,3 +21,16 @@
 - `src/` - Application logic, tools, deterministic validation, and agent loops.
 - `tests/` - Unit, integration, and prompt evaluation tests.
 - `evidence/` - Execution traces, ClickUp screenshots, and demo assets.
+
+## Download Makerere Policies
+
+Install the project dependencies and run the strict source downloader:
+
+```bash
+python -m pip install -r requirements.txt
+python -m src.core.download_mak_policies
+```
+
+Policy files are stored under `knowledge/raw/mak-policies/`. The downloader
+also writes `knowledge/mak-policies-manifest.csv` and records each downloaded
+document in `knowledge/source_register.json` with its official source URL.

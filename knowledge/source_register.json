@@ -5,6 +5,600 @@
       "title": "Makerere University Official Information Sources",
       "category": "institutional",
       "authority": "Makerere University"
+    },
+    {
+      "id": "mak-policy-0001",
+      "title": "Grants Administration and Management Policy",
+      "category": "financial-management-policies",
+      "authority": "Makerere University",
+      "source_url": "https://policies.mak.ac.ug/sites/default/files/policies/Mak-Grants-Administration-and-Management-Policy.pdf",
+      "policy_page": "https://policies.mak.ac.ug/policy/grants-administration-and-management-policy",
+      "local_path": "knowledge/raw/mak-policies/financial-management-policies/Mak-Grants-Administration-and-Management-Policy.pdf"
+    },
+    {
+      "id": "mak-policy-0002",
+      "title": "Makerere University Fees Policy 2016",
+      "category": "financial-management-policies",
+      "authority": "Makerere University",
+      "source_url": "https://policies.mak.ac.ug/sites/default/files/policies/Mak-Fees-Policy-2016.pdf",
+      "policy_page": "https://policies.mak.ac.ug/policy/makerere-university-fees-policy-2016",
+      "local_path": "knowledge/raw/mak-policies/financial-management-policies/Mak-Fees-Policy-2016.pdf"
+    },
+    {
+      "id": "mak-policy-0003",
+      "title": "Makerere University Investment Policy",
+      "category": "financial-management-policies",
+      "authority": "Makerere University",
+      "source_url": "https://policies.mak.ac.ug/sites/default/files/policies/Makerere-University-Investment-Policy-2021.pdf",
+      "policy_page": "https://policies.mak.ac.ug/policy/makerere-university-investment-policy",
+      "local_path": "knowledge/raw/mak-policies/financial-management-policies/Makerere-University-Investment-Policy-2021.pdf"
+    },
+    {
+      "id": "mak-policy-0004",
+      "title": "THE PUBLIC PROCUREMENT AND DISPOSAL OF PUBLIC ASSETS ACT, 2003",
+      "category": "financial-management-policies",
+      "authority": "Makerere University",
+      "source_url": "https://policies.mak.ac.ug/sites/default/files/policies/ACTS%20_SUPPLEMENT_PPDA_2003.pdf",
+      "policy_page": "https://policies.mak.ac.ug/policy/public-procurement-and-disposal-public-assets-act-2003",
+      "local_path": "knowledge/raw/mak-policies/financial-management-policies/ACTS_20_SUPPLEMENT_PPDA_2003.pdf"
+    },
+    {
+      "id": "mak-policy-0005",
+      "title": "THE PUBLIC PROCUREMENT AND DISPOSAL OF PUBLIC ASSETS REGULATIONS, 2003",
+      "category": "financial-management-policies",
+      "authority": "Makerere University",
+      "source_url": "https://policies.mak.ac.ug/sites/default/files/policies/STATUTORY_%20INSTRUMENTS_PDDA_Regulations_2003.pdf",
+      "policy_page": "https://policies.mak.ac.ug/policy/public-procurement-and-disposal-public-assets-regulations-2003",
+      "local_path": "knowledge/raw/mak-policies/financial-management-policies/STATUTORY__20INSTRUMENTS_PDDA_Regulations_2003.pdf"
+    },
+    {
+      "id": "mak-policy-0006",
+      "title": "HIV/AIDS Policy",
+      "category": "general-policies",
+      "authority": "Makerere University",
+      "source_url": "https://policies.mak.ac.ug/sites/default/files/policies/HIV_AIDS_Policy.pdf",
+      "policy_page": "https://policies.mak.ac.ug/policy/hivaids-policy",
+      "local_path": "knowledge/raw/mak-policies/general-policies/HIV_AIDS_Policy.pdf"
+    },
+    {
+      "id": "mak-policy-0007",
+      "title": "Makerere University College Statute 2026",
+      "category": "general-policies",
+      "authority": "Makerere University",
+      "source_url": "https://policies.mak.ac.ug/sites/default/files/policies/MAKERERE%20UNIVERSITY%20COLLEGE%20STATUTE%202026.pdf",
+      "policy_page": "https://policies.mak.ac.ug/policy/makerere-university-college-statute-2026",
+      "local_path": "knowledge/raw/mak-policies/general-policies/MAKERERE_20UNIVERSITY_20COLLEGE_20STATUTE_202026.pdf"
+    },
+    {
+      "id": "mak-policy-0008",
+      "title": "Makerere University Policy on Persons Living With Disabilities",
+      "category": "general-policies",
+      "authority": "Makerere University",
+      "source_url": "https://policies.mak.ac.ug/sites/default/files/policies/Makerere-Policy-on-Persons-Living-With-Disabilities.pdf",
+      "policy_page": "https://policies.mak.ac.ug/policy/makerere-university-policy-persons-living-disabilities",
+      "local_path": "knowledge/raw/mak-policies/general-policies/Makerere-Policy-on-Persons-Living-With-Disabilities.pdf"
+    },
+    {
+      "id": "mak-policy-0009",
+      "title": "Policy and Regulations Against Sexual Harrasment",
+      "category": "general-policies",
+      "authority": "Makerere University",
+      "source_url": "https://policies.mak.ac.ug/sites/default/files/policies/Policy-and-Regulations-Against-Sexual-Harassment-2018.pdf",
+      "policy_page": "https://policies.mak.ac.ug/policy/policy-and-regulations-against-sexual-harrasment",
+      "local_path": "knowledge/raw/mak-policies/general-policies/Policy-and-Regulations-Against-Sexual-Harassment-2018.pdf"
+    },
+    {
+      "id": "mak-policy-0010",
+      "title": "Quality Assurance Policy Framework",
+      "category": "general-policies",
+      "authority": "Makerere University",
+      "source_url": "https://policies.mak.ac.ug/sites/default/files/policies/Quality_Assurance_Policy_0.pdf",
+      "policy_page": "https://policies.mak.ac.ug/policy/quality-assurance-policy-framework",
+      "local_path": "knowledge/raw/mak-policies/general-policies/Quality_Assurance_Policy_0.pdf"
+    },
+    {
+      "id": "mak-policy-0011",
+      "title": "Safegaurding Policy",
+      "category": "general-policies",
+      "authority": "Makerere University",
+      "source_url": "https://policies.mak.ac.ug/sites/default/files/policies/Makerere-Safeguarding-Policy.pdf",
+      "policy_page": "https://policies.mak.ac.ug/policy/safegaurding-policy",
+      "local_path": "knowledge/raw/mak-policies/general-policies/Makerere-Safeguarding-Policy.pdf"
+    },
+    {
+      "id": "mak-policy-0012",
+      "title": "Transport Management Policy Guidelines",
+      "category": "general-policies",
+      "authority": "Makerere University",
+      "source_url": "https://policies.mak.ac.ug/sites/default/files/policies/Makerere-University-Transport-Policy-Management-Guidelines-July2011.pdf",
+      "policy_page": "https://policies.mak.ac.ug/policy/transport-management-policy-guidelines",
+      "local_path": "knowledge/raw/mak-policies/general-policies/Makerere-University-Transport-Policy-Management-Guidelines-July2011.pdf"
+    },
+    {
+      "id": "mak-policy-0013",
+      "title": "Universities and other Tertiary Institutions Act Cap 262",
+      "category": "general-policies",
+      "authority": "Makerere University",
+      "source_url": "https://policies.mak.ac.ug/sites/default/files/policies/REVISED%20UOTIA%20CAP%20262%20AS%20OF%20JULY%202024_opt.pdf",
+      "policy_page": "https://policies.mak.ac.ug/policy/universities-and-other-tertiary-institutions-act-cap-262",
+      "local_path": "knowledge/raw/mak-policies/general-policies/REVISED_20UOTIA_20CAP_20262_20AS_20OF_20JULY_202024_opt.pdf"
+    },
+    {
+      "id": "mak-policy-0014",
+      "title": "Gender Equality Policy",
+      "category": "governance-policies",
+      "authority": "Makerere University",
+      "source_url": "https://policies.mak.ac.ug/sites/default/files/policies/Makerere-University-Gender-Equality-Policy-2009.pdf",
+      "policy_page": "https://policies.mak.ac.ug/policy/gender-equality-policy",
+      "local_path": "knowledge/raw/mak-policies/governance-policies/Makerere-University-Gender-Equality-Policy-2009.pdf"
+    },
+    {
+      "id": "mak-policy-0015",
+      "title": "Makerere Universiry Council Charter 2019",
+      "category": "governance-policies",
+      "authority": "Makerere University",
+      "source_url": "https://policies.mak.ac.ug/sites/default/files/policies/MAKERERE-UNIVERSITY-COUNCIL-CHARTER.pdf",
+      "policy_page": "https://policies.mak.ac.ug/policy/makerere-universiry-council-charter-2019",
+      "local_path": "knowledge/raw/mak-policies/governance-policies/MAKERERE-UNIVERSITY-COUNCIL-CHARTER.pdf"
+    },
+    {
+      "id": "mak-policy-0016",
+      "title": "Makerere University (Corporate Governance) Guidelines 2022",
+      "category": "governance-policies",
+      "authority": "Makerere University",
+      "source_url": "https://policies.mak.ac.ug/sites/default/files/policies/Makerere-University_Corporate-Governance_Guidelines-2022.pdf",
+      "policy_page": "https://policies.mak.ac.ug/policy/makerere-university-corporate-governance-guidelines-2022",
+      "local_path": "knowledge/raw/mak-policies/governance-policies/Makerere-University_Corporate-Governance_Guidelines-2022.pdf"
+    },
+    {
+      "id": "mak-policy-0017",
+      "title": "Makerere University Naming Policy",
+      "category": "governance-policies",
+      "authority": "Makerere University",
+      "source_url": "https://policies.mak.ac.ug/sites/default/files/policies/Makerere-Naming-Policy.pdf",
+      "policy_page": "https://policies.mak.ac.ug/policy/makerere-university-naming-policy",
+      "local_path": "knowledge/raw/mak-policies/governance-policies/Makerere-Naming-Policy.pdf"
+    },
+    {
+      "id": "mak-policy-0018",
+      "title": "Policy & Regulations on Sexual Harassment Prevention",
+      "category": "governance-policies",
+      "authority": "Makerere University",
+      "source_url": "https://policies.mak.ac.ug/sites/default/files/policies/Policy-and-Regulations-Against-Sexual-Harassment-2018_0.pdf",
+      "policy_page": "https://policies.mak.ac.ug/policy/policy-regulations-sexual-harassment-prevention",
+      "local_path": "knowledge/raw/mak-policies/governance-policies/Policy-and-Regulations-Against-Sexual-Harassment-2018_0.pdf"
+    },
+    {
+      "id": "mak-policy-0019",
+      "title": "Awarding the title Professor Emeritus",
+      "category": "human-resource-policies",
+      "authority": "Makerere University",
+      "source_url": "https://policies.mak.ac.ug/sites/default/files/policies/POLICY_ON_AWARDING_THE_TITLE_PROFESSOR_EMERITUS.pdf",
+      "policy_page": "https://policies.mak.ac.ug/policy/awarding-title-professor-emeritus",
+      "local_path": "knowledge/raw/mak-policies/human-resource-policies/POLICY_ON_AWARDING_THE_TITLE_PROFESSOR_EMERITUS.pdf"
+    },
+    {
+      "id": "mak-policy-0020",
+      "title": "Guidelines for the Appointment of Staff on Short-Term Contracts",
+      "category": "human-resource-policies",
+      "authority": "Makerere University",
+      "source_url": "https://policies.mak.ac.ug/sites/default/files/policies/Makerere-Guidelines-Short-Term-Contracts-July-2023.pdf",
+      "policy_page": "https://policies.mak.ac.ug/policy/guidelines-appointment-staff-short-term-contracts",
+      "local_path": "knowledge/raw/mak-policies/human-resource-policies/Makerere-Guidelines-Short-Term-Contracts-July-2023.pdf"
+    },
+    {
+      "id": "mak-policy-0021",
+      "title": "Honorary Awards Guidelines",
+      "category": "human-resource-policies",
+      "authority": "Makerere University",
+      "source_url": "https://policies.mak.ac.ug/sites/default/files/policies/MAKERERE_UNIVERSITY_HONORARY_AWARDS_GUIDELINES.pdf",
+      "policy_page": "https://policies.mak.ac.ug/policy/honorary-awards-guidelines",
+      "local_path": "knowledge/raw/mak-policies/human-resource-policies/MAKERERE_UNIVERSITY_HONORARY_AWARDS_GUIDELINES.pdf"
+    },
+    {
+      "id": "mak-policy-0022",
+      "title": "Makerere Guidelines Post-Retirement Contracts for Professors",
+      "category": "human-resource-policies",
+      "authority": "Makerere University",
+      "source_url": "https://policies.mak.ac.ug/sites/default/files/policies/Makerere-Guidelines-Awarding-Renewal-Post-Retirement-Contracts-Professors.pdf",
+      "policy_page": "https://policies.mak.ac.ug/policy/makerere-guidelines-post-retirement-contracts-professors",
+      "local_path": "knowledge/raw/mak-policies/human-resource-policies/Makerere-Guidelines-Awarding-Renewal-Post-Retirement-Contracts-Professors.pdf"
+    },
+    {
+      "id": "mak-policy-0023",
+      "title": "Makerere University Biometric Attendance Gudelines and Procedures",
+      "category": "human-resource-policies",
+      "authority": "Makerere University",
+      "source_url": "https://policies.mak.ac.ug/sites/default/files/policies/Makerere-Biometric-Attendance-Management-System-Guidelines-Procedures.pdf",
+      "policy_page": "https://policies.mak.ac.ug/policy/makerere-university-biometric-attendance-gudelines-and-procedures",
+      "local_path": "knowledge/raw/mak-policies/human-resource-policies/Makerere-Biometric-Attendance-Management-System-Guidelines-Procedures.pdf"
+    },
+    {
+      "id": "mak-policy-0024",
+      "title": "Makerere University Human Resources Manual 2009 (As Amended)",
+      "category": "human-resource-policies",
+      "authority": "Makerere University",
+      "source_url": "https://policies.mak.ac.ug/sites/default/files/policies/Makerere-University-Human-Resources-Manual-2009_As-Amended.pdf",
+      "policy_page": "https://policies.mak.ac.ug/policy/makerere-university-human-resources-manual-2009-amended",
+      "local_path": "knowledge/raw/mak-policies/human-resource-policies/Makerere-University-Human-Resources-Manual-2009_As-Amended.pdf"
+    },
+    {
+      "id": "mak-policy-0025",
+      "title": "Policy on Appointment and Promotions of Academic Staff",
+      "category": "human-resource-policies",
+      "authority": "Makerere University",
+      "source_url": "https://policies.mak.ac.ug/sites/default/files/policies/POLICY%20_APPOINTMENT_%20AND%20_PROMOTION.pdf",
+      "policy_page": "https://policies.mak.ac.ug/policy/policy-appointment-and-promotions-academic-staff",
+      "local_path": "knowledge/raw/mak-policies/human-resource-policies/POLICY_20_APPOINTMENT__20AND_20_PROMOTION.pdf"
+    },
+    {
+      "id": "mak-policy-0026",
+      "title": "Reviewed Policy on Promotion Tracks for Academic staff May 2014",
+      "category": "human-resource-policies",
+      "authority": "Makerere University",
+      "source_url": "https://policies.mak.ac.ug/sites/default/files/policies/Reviewed-Policy-on-promotion-tracks-for-academic-staff-May-2014.pdf",
+      "policy_page": "https://policies.mak.ac.ug/policy/reviewed-policy-promotion-tracks-academic-staff-may-2014",
+      "local_path": "knowledge/raw/mak-policies/human-resource-policies/Reviewed-Policy-on-promotion-tracks-for-academic-staff-May-2014.pdf"
+    },
+    {
+      "id": "mak-policy-0027",
+      "title": "Rules of Procedure of the Staff Appeals Tribunal",
+      "category": "human-resource-policies",
+      "authority": "Makerere University",
+      "source_url": "https://policies.mak.ac.ug/sites/default/files/policies/Makerere-Staff-Appeals-Tribunal-Rules-of-Procedure-2023.pdf",
+      "policy_page": "https://policies.mak.ac.ug/policy/rules-procedure-staff-appeals-tribunal",
+      "local_path": "knowledge/raw/mak-policies/human-resource-policies/Makerere-Staff-Appeals-Tribunal-Rules-of-Procedure-2023.pdf"
+    },
+    {
+      "id": "mak-policy-0028",
+      "title": "Acceptable use of ICT Resourses",
+      "category": "ict-policies",
+      "authority": "Makerere University",
+      "source_url": "https://policies.mak.ac.ug/sites/default/files/policies/Acceptable_Use_of_ICT_Resources.pdf",
+      "policy_page": "https://policies.mak.ac.ug/policy/acceptable-use-ict-resourses",
+      "local_path": "knowledge/raw/mak-policies/ict-policies/Acceptable_Use_of_ICT_Resources.pdf"
+    },
+    {
+      "id": "mak-policy-0029",
+      "title": "Data Security",
+      "category": "ict-policies",
+      "authority": "Makerere University",
+      "source_url": "https://policies.mak.ac.ug/sites/default/files/policies/Data_Security_Policy.pdf",
+      "policy_page": "https://policies.mak.ac.ug/policy/data-security",
+      "local_path": "knowledge/raw/mak-policies/ict-policies/Data_Security_Policy.pdf"
+    },
+    {
+      "id": "mak-policy-0030",
+      "title": "Directorate for ICT Support Strategic Plan 2020 - 2030",
+      "category": "ict-policies",
+      "authority": "Makerere University",
+      "source_url": "https://policies.mak.ac.ug/sites/default/files/policies/Makerere-University-ICT-Strategic-Plan-2020-2030.pdf",
+      "policy_page": "https://policies.mak.ac.ug/policy/directorate-ict-support-strategic-plan-2020-2030",
+      "local_path": "knowledge/raw/mak-policies/ict-policies/Makerere-University-ICT-Strategic-Plan-2020-2030.pdf"
+    },
+    {
+      "id": "mak-policy-0031",
+      "title": "Disposal of ICT Equipment and Electronic Waste Management",
+      "category": "ict-policies",
+      "authority": "Makerere University",
+      "source_url": "https://policies.mak.ac.ug/sites/default/files/policies/Disposal_of_ICT_Equipment_policy_Electronic_Waste_Management.pdf",
+      "policy_page": "https://policies.mak.ac.ug/policy/disposal-ict-equipment-and-electronic-waste-management",
+      "local_path": "knowledge/raw/mak-policies/ict-policies/Disposal_of_ICT_Equipment_policy_Electronic_Waste_Management.pdf"
+    },
+    {
+      "id": "mak-policy-0032",
+      "title": "ICT Policy and Master Plan 2010-2014 (Expired)",
+      "category": "ict-policies",
+      "authority": "Makerere University",
+      "source_url": "https://policies.mak.ac.ug/sites/default/files/policies/ICT_Policy_Master_Plan_2010_2014.pdf",
+      "policy_page": "https://policies.mak.ac.ug/policy/ict-policy-and-master-plan-2010-2014",
+      "local_path": "knowledge/raw/mak-policies/ict-policies/ICT_Policy_Master_Plan_2010_2014.pdf"
+    },
+    {
+      "id": "mak-policy-0033",
+      "title": "Information and Communication Technology Policy (2016 - 2020) (Expired)",
+      "category": "ict-policies",
+      "authority": "Makerere University",
+      "source_url": "https://policies.mak.ac.ug/sites/default/files/policies/ICT%20POLICY%20%28APRIL%202016-2020%29.pdf",
+      "policy_page": "https://policies.mak.ac.ug/policy/information-and-communication-technology-policy-2016-2020",
+      "local_path": "knowledge/raw/mak-policies/ict-policies/ICT_20POLICY_20_28APRIL_202016-2020_29.pdf"
+    },
+    {
+      "id": "mak-policy-0034",
+      "title": "The Makerere University Information and Communication Technology Policy Framework [Active/current policy]",
+      "category": "ict-policies",
+      "authority": "Makerere University",
+      "source_url": "https://policies.mak.ac.ug/sites/default/files/policies/Makerere-University-Information-and-Communication-Technology-Policy-Framework-March%202020.pdf",
+      "policy_page": "https://policies.mak.ac.ug/policy/makerere-university-information-and-communication-technology-policy-framework-activecurrent",
+      "local_path": "knowledge/raw/mak-policies/ict-policies/Makerere-University-Information-and-Communication-Technology-Policy-Framework-March_202020.pdf"
+    },
+    {
+      "id": "mak-policy-0035",
+      "title": "Masterplan for Makerere University Open, Distance & eLearning",
+      "category": "ict-policies",
+      "authority": "Makerere University",
+      "source_url": "https://policies.mak.ac.ug/sites/default/files/policies/Masterplan-Makerere-University-Open-Distance-E-learning-full.pdf",
+      "policy_page": "https://policies.mak.ac.ug/policy/masterplan-makerere-university-open-distance-elearning",
+      "local_path": "knowledge/raw/mak-policies/ict-policies/Masterplan-Makerere-University-Open-Distance-E-learning-full.pdf"
+    },
+    {
+      "id": "mak-policy-0036",
+      "title": "Physical ICT Security Policy",
+      "category": "ict-policies",
+      "authority": "Makerere University",
+      "source_url": "https://policies.mak.ac.ug/sites/default/files/policies/Physical_ICT_Security_Policy.pdf",
+      "policy_page": "https://policies.mak.ac.ug/policy/physical-ict-security-policy",
+      "local_path": "knowledge/raw/mak-policies/ict-policies/Physical_ICT_Security_Policy.pdf"
+    },
+    {
+      "id": "mak-policy-0037",
+      "title": "Web Content Publishing",
+      "category": "ict-policies",
+      "authority": "Makerere University",
+      "source_url": "https://policies.mak.ac.ug/sites/default/files/policies/Web_Content_Publishing_Policy.pdf",
+      "policy_page": "https://policies.mak.ac.ug/policy/web-content-publishing",
+      "local_path": "knowledge/raw/mak-policies/ict-policies/Web_Content_Publishing_Policy.pdf"
+    },
+    {
+      "id": "mak-policy-0038",
+      "title": "Communications Policy 2013",
+      "category": "information-management-policies",
+      "authority": "Makerere University",
+      "source_url": "https://policies.mak.ac.ug/sites/default/files/policies/Makerere-University-Communications-Policy-March-2013.pdf",
+      "policy_page": "https://policies.mak.ac.ug/policy/communications-policy-2013",
+      "local_path": "knowledge/raw/mak-policies/information-management-policies/Makerere-University-Communications-Policy-March-2013.pdf"
+    },
+    {
+      "id": "mak-policy-0039",
+      "title": "Makerere University Academic Records Management Policy",
+      "category": "information-management-policies",
+      "authority": "Makerere University",
+      "source_url": "https://policies.mak.ac.ug/sites/default/files/policies/Makerere-Academic-Records-Management-Policy-Sept-2024.pdf",
+      "policy_page": "https://policies.mak.ac.ug/policy/makerere-university-academic-records-management-policy",
+      "local_path": "knowledge/raw/mak-policies/information-management-policies/Makerere-Academic-Records-Management-Policy-Sept-2024.pdf"
+    },
+    {
+      "id": "mak-policy-0040",
+      "title": "Audit Manual",
+      "category": "manuals",
+      "authority": "Makerere University",
+      "source_url": "https://policies.mak.ac.ug/sites/default/files/policies/Audit%20Book.pdf",
+      "policy_page": "https://policies.mak.ac.ug/policy/audit-manual",
+      "local_path": "knowledge/raw/mak-policies/manuals/Audit_20Book.pdf"
+    },
+    {
+      "id": "mak-policy-0041",
+      "title": "Finance Manual",
+      "category": "manuals",
+      "authority": "Makerere University",
+      "source_url": "https://policies.mak.ac.ug/sites/default/files/policies/Finance%20%20Manual.pdf",
+      "policy_page": "https://policies.mak.ac.ug/policy/finance-manual",
+      "local_path": "knowledge/raw/mak-policies/manuals/Finance_20_20Manual.pdf"
+    },
+    {
+      "id": "mak-policy-0042",
+      "title": "Human Resource Manual (Amended 2026)",
+      "category": "manuals",
+      "authority": "Makerere University",
+      "source_url": "https://policies.mak.ac.ug/sites/default/files/policies/AMENDED-HUMAN-RESOURCES-MANUAL-2009.pdf",
+      "policy_page": "https://policies.mak.ac.ug/policy/human-resource-manual-amended-2026",
+      "local_path": "knowledge/raw/mak-policies/manuals/AMENDED-HUMAN-RESOURCES-MANUAL-2009.pdf"
+    },
+    {
+      "id": "mak-policy-0043",
+      "title": "Makerere University Academic Policies Manual 2025",
+      "category": "manuals",
+      "authority": "Makerere University",
+      "source_url": "https://policies.mak.ac.ug/sites/default/files/policies/Makerere-Academic-Policies-Manual-Revised-Version-2025.pdf",
+      "policy_page": "https://policies.mak.ac.ug/policy/makerere-university-academic-policies-manual-2025",
+      "local_path": "knowledge/raw/mak-policies/manuals/Makerere-Academic-Policies-Manual-Revised-Version-2025.pdf"
+    },
+    {
+      "id": "mak-policy-0044",
+      "title": "Procurement Manual",
+      "category": "manuals",
+      "authority": "Makerere University",
+      "source_url": "https://policies.mak.ac.ug/sites/default/files/policies/Procurement%20%20Manual.pdf",
+      "policy_page": "https://policies.mak.ac.ug/policy/procurement-manual",
+      "local_path": "knowledge/raw/mak-policies/manuals/Procurement_20_20Manual.pdf"
+    },
+    {
+      "id": "mak-policy-0045",
+      "title": "Research Manual",
+      "category": "manuals",
+      "authority": "Makerere University",
+      "source_url": "https://policies.mak.ac.ug/sites/default/files/policies/Research%20Manual.pdf",
+      "policy_page": "https://policies.mak.ac.ug/policy/research-manual",
+      "local_path": "knowledge/raw/mak-policies/manuals/Research_20Manual.pdf"
+    },
+    {
+      "id": "mak-policy-0046",
+      "title": "Intellectual Property Management (IPM) Policy",
+      "category": "research-policies",
+      "authority": "Makerere University",
+      "source_url": "https://policies.mak.ac.ug/sites/default/files/policies/Intellectual-Property-policy-2022.pdf",
+      "policy_page": "https://policies.mak.ac.ug/policy/intellectual-property-management-ipm-policy",
+      "local_path": "knowledge/raw/mak-policies/research-policies/Intellectual-Property-policy-2022.pdf"
+    },
+    {
+      "id": "mak-policy-0047",
+      "title": "Policy on Establishment of Research Entities and Institutions",
+      "category": "research-policies",
+      "authority": "Makerere University",
+      "source_url": "https://policies.mak.ac.ug/sites/default/files/policies/Policy-on-Establishment-of-Research-Entities.pdf",
+      "policy_page": "https://policies.mak.ac.ug/policy/policy-establishment-research-entities-and-institutions",
+      "local_path": "knowledge/raw/mak-policies/research-policies/Policy-on-Establishment-of-Research-Entities.pdf"
+    },
+    {
+      "id": "mak-policy-0048",
+      "title": "Research and Innovations Policy 2008",
+      "category": "research-policies",
+      "authority": "Makerere University",
+      "source_url": "https://policies.mak.ac.ug/sites/default/files/policies/MAKERERE_UNIVERSITY_RESEARCH_POLICY_0.pdf",
+      "policy_page": "https://policies.mak.ac.ug/policy/research-and-innovations-policy-2008",
+      "local_path": "knowledge/raw/mak-policies/research-policies/MAKERERE_UNIVERSITY_RESEARCH_POLICY_0.pdf"
+    },
+    {
+      "id": "mak-policy-0049",
+      "title": "University Research Agenda (2025/26-2029/30)",
+      "category": "research-policies",
+      "authority": "Makerere University",
+      "source_url": "https://policies.mak.ac.ug/sites/default/files/policies/Mak-Research-Agenda-2025-2030.pdf",
+      "policy_page": "https://policies.mak.ac.ug/policy/university-research-agenda-202526-202930",
+      "local_path": "knowledge/raw/mak-policies/research-policies/Mak-Research-Agenda-2025-2030.pdf"
+    },
+    {
+      "id": "mak-policy-0050",
+      "title": "Guild Constitution",
+      "category": "student-affairs-policies",
+      "authority": "Makerere University",
+      "source_url": "https://policies.mak.ac.ug/sites/default/files/policies/GUILD%20CONSTITUTION%20NEW.pdf",
+      "policy_page": "https://policies.mak.ac.ug/policy/guild-constitution",
+      "local_path": "knowledge/raw/mak-policies/student-affairs-policies/GUILD_20CONSTITUTION_20NEW.pdf"
+    },
+    {
+      "id": "mak-policy-0051",
+      "title": "Mak Students Guild Statute 2022",
+      "category": "student-affairs-policies",
+      "authority": "Makerere University",
+      "source_url": "https://policies.mak.ac.ug/sites/default/files/policies/Mak-Students-Guild-Statute-2022.pdf",
+      "policy_page": "https://policies.mak.ac.ug/policy/mak-students-guild-statute-2022",
+      "local_path": "knowledge/raw/mak-policies/student-affairs-policies/Mak-Students-Guild-Statute-2022.pdf"
+    },
+    {
+      "id": "mak-policy-0052",
+      "title": "Makerere Career Guidance and Mentorship Policy",
+      "category": "student-affairs-policies",
+      "authority": "Makerere University",
+      "source_url": "https://policies.mak.ac.ug/sites/default/files/policies/MAKERERE-MENTORSHIP-POLICY-JUNE-2025.pdf",
+      "policy_page": "https://policies.mak.ac.ug/policy/makerere-career-guidance-and-mentorship-policy",
+      "local_path": "knowledge/raw/mak-policies/student-affairs-policies/MAKERERE-MENTORSHIP-POLICY-JUNE-2025.pdf"
+    },
+    {
+      "id": "mak-policy-0053",
+      "title": "Makerere Students Regulations",
+      "category": "student-affairs-policies",
+      "authority": "Makerere University",
+      "source_url": "https://policies.mak.ac.ug/sites/default/files/policies/Makerere-University-Students-Regulations-2015.pdf",
+      "policy_page": "https://policies.mak.ac.ug/policy/makerere-students-regulations",
+      "local_path": "knowledge/raw/mak-policies/student-affairs-policies/Makerere-University-Students-Regulations-2015.pdf"
+    },
+    {
+      "id": "mak-policy-0054",
+      "title": "Makerere University Policy on Students' Accommodation",
+      "category": "student-affairs-policies",
+      "authority": "Makerere University",
+      "source_url": "https://policies.mak.ac.ug/sites/default/files/policies/Makerere-Students-Accommodation-Policy.pdf",
+      "policy_page": "https://policies.mak.ac.ug/policy/makerere-university-policy-students-accommodation",
+      "local_path": "knowledge/raw/mak-policies/student-affairs-policies/Makerere-Students-Accommodation-Policy.pdf"
+    },
+    {
+      "id": "mak-policy-0055",
+      "title": "Policy for Makerere University Student Work Scheme",
+      "category": "student-affairs-policies",
+      "authority": "Makerere University",
+      "source_url": "https://policies.mak.ac.ug/sites/default/files/policies/Makerere-University-Student-Work-Scheme-Policy.pdf",
+      "policy_page": "https://policies.mak.ac.ug/policy/policy-makerere-university-student-work-scheme",
+      "local_path": "knowledge/raw/mak-policies/student-affairs-policies/Makerere-University-Student-Work-Scheme-Policy.pdf"
+    },
+    {
+      "id": "mak-policy-0056",
+      "title": "Rules on Examination Malpractice and Irregularities (Students)",
+      "category": "student-affairs-policies",
+      "authority": "Makerere University",
+      "source_url": "https://policies.mak.ac.ug/sites/default/files/policies/Approved-Amended-Rules-on-Examination-Malpractices-and-Irregularities-March-2019.pdf",
+      "policy_page": "https://policies.mak.ac.ug/policy/rules-examination-malpractice-and-irregularities-students",
+      "local_path": "knowledge/raw/mak-policies/student-affairs-policies/Approved-Amended-Rules-on-Examination-Malpractices-and-Irregularities-March-2019.pdf"
+    },
+    {
+      "id": "mak-policy-0057",
+      "title": "Guidelines for Field Attachment",
+      "category": "teaching-and-learning-policies",
+      "authority": "Makerere University",
+      "source_url": "https://policies.mak.ac.ug/sites/default/files/policies/GUIDELINES_FOR_FIELD_ATTACHMENT.pdf",
+      "policy_page": "https://policies.mak.ac.ug/policy/guidelines-field-attachment",
+      "local_path": "knowledge/raw/mak-policies/teaching-and-learning-policies/GUIDELINES_FOR_FIELD_ATTACHMENT.pdf"
+    },
+    {
+      "id": "mak-policy-0058",
+      "title": "Joint Awards between Makerere University",
+      "category": "teaching-and-learning-policies",
+      "authority": "Makerere University",
+      "source_url": "https://policies.mak.ac.ug/sites/default/files/policies/Policy_on_Joint_Awards_between_Makerere_University.pdf",
+      "policy_page": "https://policies.mak.ac.ug/policy/joint-awards-between-makerere-university",
+      "local_path": "knowledge/raw/mak-policies/teaching-and-learning-policies/Policy_on_Joint_Awards_between_Makerere_University.pdf"
+    },
+    {
+      "id": "mak-policy-0059",
+      "title": "Makerere University Intellectual Property Management Policy",
+      "category": "teaching-and-learning-policies",
+      "authority": "Makerere University",
+      "source_url": "https://policies.mak.ac.ug/sites/default/files/policies/Intellectual-Property-Management-Policy-2024.pdf",
+      "policy_page": "https://policies.mak.ac.ug/policy/makerere-university-intellectual-property-management-policy",
+      "local_path": "knowledge/raw/mak-policies/teaching-and-learning-policies/Intellectual-Property-Management-Policy-2024.pdf"
+    },
+    {
+      "id": "mak-policy-0060",
+      "title": "Makerere University Revised Semester/Credit System for Undergraduates",
+      "category": "teaching-and-learning-policies",
+      "authority": "Makerere University",
+      "source_url": "https://policies.mak.ac.ug/sites/default/files/policies/Makerere-Revised-Regulations-Semester-Credit-for-Undergraduates.pdf",
+      "policy_page": "https://policies.mak.ac.ug/policy/makerere-university-revised-semestercredit-system-undergraduates",
+      "local_path": "knowledge/raw/mak-policies/teaching-and-learning-policies/Makerere-Revised-Regulations-Semester-Credit-for-Undergraduates.pdf"
+    },
+    {
+      "id": "mak-policy-0061",
+      "title": "Makerere University Teaching and Learning Policy",
+      "category": "teaching-and-learning-policies",
+      "authority": "Makerere University",
+      "source_url": "https://policies.mak.ac.ug/sites/default/files/policies/Makerere-Teaching-and-Learning-Policy-Sept-2024.pdf",
+      "policy_page": "https://policies.mak.ac.ug/policy/makerere-university-teaching-and-learning-policy",
+      "local_path": "knowledge/raw/mak-policies/teaching-and-learning-policies/Makerere-Teaching-and-Learning-Policy-Sept-2024.pdf"
+    },
+    {
+      "id": "mak-policy-0062",
+      "title": "Open Distance and eLearning Policy",
+      "category": "teaching-and-learning-policies",
+      "authority": "Makerere University",
+      "source_url": "https://policies.mak.ac.ug/sites/default/files/policies/Open-Distance-eLearning-Policy.pdf",
+      "policy_page": "https://policies.mak.ac.ug/policy/open-distance-and-elearning-policy",
+      "local_path": "knowledge/raw/mak-policies/teaching-and-learning-policies/Open-Distance-eLearning-Policy.pdf"
+    },
+    {
+      "id": "mak-policy-0063",
+      "title": "Remarking Students work and retention of scripts",
+      "category": "teaching-and-learning-policies",
+      "authority": "Makerere University",
+      "source_url": "https://policies.mak.ac.ug/sites/default/files/policies/Policy_on_remarking_students_work_and_retention_of_scripts.pdf",
+      "policy_page": "https://policies.mak.ac.ug/policy/remarking-students-work-and-retention-scripts",
+      "local_path": "knowledge/raw/mak-policies/teaching-and-learning-policies/Policy_on_remarking_students_work_and_retention_of_scripts.pdf"
+    },
+    {
+      "id": "mak-policy-0064",
+      "title": "Research and Innovation",
+      "category": "teaching-and-learning-policies",
+      "authority": "Makerere University",
+      "source_url": "https://policies.mak.ac.ug/sites/default/files/policies/MAKERERE_UNIVERSITY_RESEARCH_POLICY.pdf",
+      "policy_page": "https://policies.mak.ac.ug/policy/research-and-innovation",
+      "local_path": "knowledge/raw/mak-policies/teaching-and-learning-policies/MAKERERE_UNIVERSITY_RESEARCH_POLICY.pdf"
+    },
+    {
+      "id": "mak-policy-0065",
+      "title": "Roles and responsibilities for External Examiners",
+      "category": "teaching-and-learning-policies",
+      "authority": "Makerere University",
+      "source_url": "https://policies.mak.ac.ug/sites/default/files/policies/ROLES_AND_RESPONSIBILITIES_FOR%20EXTERNAL_EXAMINERS.pdf",
+      "policy_page": "https://policies.mak.ac.ug/policy/roles-and-responsibilities-external-examiners",
+      "local_path": "knowledge/raw/mak-policies/teaching-and-learning-policies/ROLES_AND_RESPONSIBILITIES_FOR_20EXTERNAL_EXAMINERS.pdf"
+    },
+    {
+      "id": "mak-policy-0066",
+      "title": "Rules concerning Examination Malpractices (Staff)",
+      "category": "teaching-and-learning-policies",
+      "authority": "Makerere University",
+      "source_url": "https://policies.mak.ac.ug/sites/default/files/policies/Rules_concerning_Examination_Malpractices_staff.pdf",
+      "policy_page": "https://policies.mak.ac.ug/policy/rules-concerning-examination-malpractices-staff",
+      "local_path": "knowledge/raw/mak-policies/teaching-and-learning-policies/Rules_concerning_Examination_Malpractices_staff.pdf"
     }
   ],
   "notes": "Replace this scaffold entry with individually verified official documents before production use."
