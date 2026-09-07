@@ -1,5 +1,7 @@
 # Context Diagram
 
+The expanded systems-design views are maintained in `01-system-context.md` through `08-end-to-end-activity.md`.
+
 ```mermaid
 flowchart LR
     Student -->|question| Agent[Student Support Agent]
@@ -9,4 +11,4 @@ flowchart LR
     Staff -->|verified updates| Knowledge
 ```
 
-The application sits between students and approved institutional information. It supports discovery and explanation; it does not replace authorized university staff or make binding decisions.
+The application supports discovery and explanation; it does not replace authorized university staff or make binding decisions.
