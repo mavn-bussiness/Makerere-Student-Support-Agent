@@ -13,6 +13,9 @@ ENV/
 knowledge/chroma_db/
 knowledge/raw/*.pdf
 
+# Personal files
+kamulegeya.pdf
+
 # IDE & OS
 .idea/
 .DS_Store
