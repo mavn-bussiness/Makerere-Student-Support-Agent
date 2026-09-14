@@ -2,6 +2,7 @@ import os
 import time
 import json
 import logging
+import threading
 from pathlib import Path
 from fastapi import HTTPException
 from google import genai
@@ -13,6 +14,7 @@ logger = logging.getLogger(__name__)
 
 # Trace file destination
 TRACE_FILE_PATH = Path("evidence/traces/llm_execution.jsonl")
+_trace_lock = threading.Lock()
 
 def get_gemini_client() -> genai.Client:
     """Initialize Gemini client with explicit timeout."""
@@ -52,11 +54,15 @@ def execute_llm_query(request: LLMExecuteRequest) -> LLMExecuteResponse:
     latency_ms = (time.perf_counter() - start_time) * 1000
     
     # Extract token usage from the Gemini response metadata
-    prompt_tokens = 0
-    completion_tokens = 0
+    # Use None (not 0) when metadata is unavailable to avoid misleading counts
+    prompt_tokens = None
+    completion_tokens = None
+    total_tokens = None
     if response.usage_metadata:
-        prompt_tokens = response.usage_metadata.prompt_token_count or 0
-        completion_tokens = response.usage_metadata.candidates_token_count or 0
+        prompt_tokens = response.usage_metadata.prompt_token_count
+        completion_tokens = response.usage_metadata.candidates_token_count
+        if prompt_tokens is not None and completion_tokens is not None:
+            total_tokens = prompt_tokens + completion_tokens
         
     raw_output = response.text or ""
 
@@ -64,7 +70,8 @@ def execute_llm_query(request: LLMExecuteRequest) -> LLMExecuteResponse:
         raw_output=raw_output,
         latency_ms=latency_ms,
         prompt_tokens=prompt_tokens,
-        completion_tokens=completion_tokens
+        completion_tokens=completion_tokens,
+        total_tokens=total_tokens
     )
 
     # Append to trace file
@@ -79,18 +86,21 @@ def _log_trace(request: LLMExecuteRequest, response: LLMExecuteResponse, model: 
     
     trace_record = {
         "timestamp": time.time(),
+        "request_id": response.request_id,
         "model": model,
         "session_id": request.session_id,
         "query": request.query,
         "raw_output": response.raw_output,
         "latency_ms": response.latency_ms,
         "prompt_tokens": response.prompt_tokens,
-        "completion_tokens": response.completion_tokens
+        "completion_tokens": response.completion_tokens,
+        "total_tokens": response.total_tokens
     }
     
     try:
-        with open(TRACE_FILE_PATH, "a", encoding="utf-8") as f:
-            f.write(json.dumps(trace_record) + "\n")
+        with _trace_lock:
+            with open(TRACE_FILE_PATH, "a", encoding="utf-8") as f:
+                f.write(json.dumps(trace_record) + "\n")
     except Exception as e:
         logger.error(f"Failed to write trace to {TRACE_FILE_PATH}: {e}")
         # We generally shouldn't crash the user request if tracing fails, but log it loudly
