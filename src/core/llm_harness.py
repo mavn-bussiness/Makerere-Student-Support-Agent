@@ -4,6 +4,7 @@ import json
 import logging
 import threading
 from pathlib import Path
+from dotenv import load_dotenv
 from fastapi import HTTPException
 from google import genai
 from google.genai import types
@@ -11,6 +12,9 @@ from google.genai import types
 from src.schemas.llm import LLMExecuteRequest, LLMExecuteResponse
 
 logger = logging.getLogger(__name__)
+
+# Load .env file so os.environ.get() can read GEMINI_API_KEY and GEMINI_MODEL
+load_dotenv()
 
 # Trace file destination
 TRACE_FILE_PATH = Path("evidence/traces/llm_execution.jsonl")
@@ -22,8 +26,8 @@ def get_gemini_client() -> genai.Client:
     if not api_key:
         raise ValueError("GEMINI_API_KEY environment variable is not set")
     
-    # Configure explicitly with HTTP options for timeout
-    http_options = types.HttpOptions(timeout=30.0)
+    # Configure explicitly with HTTP options for timeout (unit: milliseconds)
+    http_options = types.HttpOptions(timeout=30_000)  # 30 seconds
     return genai.Client(api_key=api_key, http_options=http_options)
 
 def execute_llm_query(request: LLMExecuteRequest) -> LLMExecuteResponse:
