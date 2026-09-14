@@ -21,3 +21,7 @@ Thumbs.db
 # Logs & Traces
 *.log
 evidence/traces/*.json
+
+# Test coverage
+.coverage
+coverage.xml
