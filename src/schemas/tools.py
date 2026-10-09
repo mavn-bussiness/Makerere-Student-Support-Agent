@@ -28,3 +28,22 @@ class DraftSupportTicketResponse(BaseModel):
     ticket_id: str = Field(..., description="The newly generated unique ticket identifier.")
     status: str = Field(..., description="The current status of the ticket (e.g., 'Draft', 'Pending Confirmation').")
     message: str = Field(..., description="Confirmation message regarding the draft ticket creation.")
+    student_confirmation_required: bool = Field(
+        default=True,
+        description="Always True. The ticket must NOT be persisted without explicit student confirmation."
+    )
+
+
+class TicketConfirmationRequest(BaseModel):
+    """Request to confirm or reject a previously drafted ticket."""
+    ticket_id: str = Field(..., description="The ticket ID returned from the /draft-ticket endpoint.")
+    student_id: str = Field(..., description="The student ID submitting the confirmation.")
+    confirmed: bool = Field(..., description="True to submit the ticket, False to cancel it.")
+
+
+class TicketConfirmationResponse(BaseModel):
+    """Result of the Human-in-the-Loop ticket confirmation step."""
+    ticket_id: str = Field(..., description="The ticket ID that was confirmed or cancelled.")
+    final_status: str = Field(..., description="'Submitted' if confirmed, 'Cancelled' if rejected.")
+    message: str = Field(..., description="Human-readable result message.")
+    audit_event: str = Field(..., description="Audit log event name (e.g. TICKET_SUBMITTED, TICKET_CANCELLED).")

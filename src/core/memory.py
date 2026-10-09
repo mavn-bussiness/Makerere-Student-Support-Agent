@@ -1,4 +1,4 @@
-from typing import List, Dict, Optional
+﻿from typing import List, Dict, Optional
 import time
 
 class Message:
@@ -28,13 +28,17 @@ class SessionMemoryStore:
             self._store[session_id] = []
         return self._store[session_id]
 
+    def _approx_tokens(self, messages: list) -> int:
+        return sum(len(m.content) // 4 for m in messages)
+
     def add_message(self, session_id: str, role: str, content: str) -> None:
         """Add a new message to the session's history."""
         session = self.get_session(session_id)
         session.append(Message(role=role, content=content))
         
-        # Optional: Here we could add logic to truncate the history if it gets too long
-        # based on self.max_history_tokens, but for now we keep the full context.
+        # Trim oldest messages if approximate token count exceeds limit
+        while self._approx_tokens(session) > self.max_history_tokens and len(session) > 1:
+            session.pop(0)
 
     def get_formatted_history(self, session_id: str) -> List[Dict[str, str]]:
         """Return the history in the standard format expected by LLMs (list of dicts)."""
@@ -52,3 +56,4 @@ class SessionMemoryStore:
 
 # Singleton instance to be used across the application
 memory_store = SessionMemoryStore()
+

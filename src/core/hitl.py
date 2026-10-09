@@ -1,55 +1,26 @@
-from src.schemas.tools import DraftSupportTicketRequest, DraftSupportTicketResponse
-from src.core.tools import draft_support_ticket
+﻿from src.core.tools import confirm_ticket
+from src.schemas.tools import TicketConfirmationRequest, TicketConfirmationResponse
 
-class HumanInTheLoopError(Exception):
-    """Raised when a user explicitly rejects an action during a HITL check."""
-    pass
-
-
-def confirm_ticket_draft_cli_ui(request: DraftSupportTicketRequest) -> DraftSupportTicketResponse:
+def confirm_ticket_action(ticket_id: str, confirmed: bool) -> dict:
     """
-    Human-in-the-Loop (HITL) UI for ticket confirmation.
-    In a CLI environment, this prompts the user for approval before finalizing the ticket.
-    In a web API environment, this logic would instead pause the orchestrator and return 
-    a 'requires_action' state to the frontend.
+    Deprecated CLI handler kept for backward compatibility tests.
     """
-    print("\n" + "="*50)
-    print("⚠️  HUMAN-IN-THE-LOOP CONFIRMATION REQUIRED ⚠️")
-    print("="*50)
-    print(f"The agent is proposing to draft a support ticket.")
-    print(f"Student ID: {request.student_id}")
-    print(f"Category:   {request.issue_category}")
-    print(f"Issue:\n{request.issue_description}")
-    print("-" * 50)
+    print(f"--- HUMAN IN THE LOOP REQUIRED ---")
+    print(f"Ticket {ticket_id} is pending your approval.")
     
-    while True:
-        choice = input("Do you approve this ticket submission? (y/n): ").strip().lower()
-        if choice in ['y', 'yes']:
-            print("Ticket approved. Proceeding with execution...")
-            # User approved, so we actually call the underlying tool
-            return draft_support_ticket(request)
-        elif choice in ['n', 'no']:
-            print("Ticket rejected by user.")
-            raise HumanInTheLoopError("The user reviewed the draft ticket and rejected its submission.")
-        else:
-            print("Invalid input. Please enter 'y' or 'n'.")
+    # In a real deployed web app, this would block the API response.
+    # The new HTTP API uses process_ticket_confirmation instead.
+    if confirmed:
+        print(">> Proceeding: User approved.")
+        return {"status": "success", "action": "ticket_confirmed"}
+    else:
+        print(">> Aborting: User rejected.")
+        return {"status": "aborted", "action": "ticket_rejected"}
 
+def process_ticket_confirmation(request: TicketConfirmationRequest) -> TicketConfirmationResponse:
+    """
+    API-compatible HITL handler. Called by the HTTP endpoint.
+    No input() calls - state is driven by the HTTP request body.
+    """
+    return confirm_ticket(request.ticket_id, request.confirmed)
 
-def demonstrate_hitl():
-    """A small test function to demonstrate the UI flow."""
-    request = DraftSupportTicketRequest(
-        student_id="123456",
-        issue_category="IT Support",
-        issue_description="I cannot log into the student portal. It keeps saying 'Invalid Credentials' even though I reset my password."
-    )
-    
-    try:
-        response = confirm_ticket_draft_cli_ui(request)
-        print("\n✅ Final Result:")
-        print(response.model_dump_json(indent=2))
-    except HumanInTheLoopError as e:
-        print(f"\n❌ Execution Halted: {e}")
-
-if __name__ == "__main__":
-    # If this file is run directly, demonstrate the UI.
-    demonstrate_hitl()

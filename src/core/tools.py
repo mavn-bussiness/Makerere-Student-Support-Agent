@@ -1,4 +1,4 @@
-import uuid
+﻿import uuid
 from typing import Dict, Any
 from src.schemas.tools import (
     GetStudentStatusRequest,
@@ -29,6 +29,8 @@ MOCK_STUDENT_DB = {
     }
 }
 
+# Pending tickets awaiting student confirmation
+PENDING_TICKETS: dict[str, DraftSupportTicketResponse] = {}
 
 def get_student_status(request: GetStudentStatusRequest) -> GetStudentStatusResponse:
     """
@@ -65,8 +67,28 @@ def draft_support_ticket(request: DraftSupportTicketRequest) -> DraftSupportTick
     
     # In a real system, this would save to a database.
     # Here, we just acknowledge the draft creation.
-    return DraftSupportTicketResponse(
+    response = DraftSupportTicketResponse(
         ticket_id=ticket_id,
         status="Drafted",
-        message=f"Successfully drafted a {request.issue_category} ticket for student {request.student_id}. Pending human-in-the-loop confirmation."
+        message=f"Successfully drafted a {request.issue_category} ticket for student {request.student_id}. Pending human-in-the-loop confirmation.",
+        student_confirmation_required=True
+    )
+    PENDING_TICKETS[ticket_id] = response
+    return response
+
+def confirm_ticket(ticket_id: str, confirmed: bool) -> Any:
+    from src.schemas.tools import TicketConfirmationResponse
+    """Deterministic confirmation gate - only persists on explicit True."""
+    draft = PENDING_TICKETS.pop(ticket_id, None)
+    if draft is None:
+        raise ValueError(f"No pending ticket found for ID: {ticket_id}")
+    if confirmed:
+        # In production: write to DB here
+        return TicketConfirmationResponse(
+            ticket_id=ticket_id, final_status="Submitted",
+            message="Ticket confirmed and submitted.", audit_event="TICKET_SUBMITTED"
+        )
+    return TicketConfirmationResponse(
+        ticket_id=ticket_id, final_status="Cancelled",
+        message="Ticket cancelled by student.", audit_event="TICKET_CANCELLED"
     )
