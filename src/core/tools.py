@@ -1,10 +1,10 @@
-﻿import uuid
-from typing import Dict, Any
+import uuid
 from src.schemas.tools import (
     GetStudentStatusRequest,
     GetStudentStatusResponse,
     DraftSupportTicketRequest,
-    DraftSupportTicketResponse
+    DraftSupportTicketResponse,
+    TicketConfirmationResponse,
 )
 
 # Mock database for deterministic student status tool
@@ -76,8 +76,7 @@ def draft_support_ticket(request: DraftSupportTicketRequest) -> DraftSupportTick
     PENDING_TICKETS[ticket_id] = response
     return response
 
-def confirm_ticket(ticket_id: str, confirmed: bool) -> Any:
-    from src.schemas.tools import TicketConfirmationResponse
+def confirm_ticket(ticket_id: str, confirmed: bool) -> TicketConfirmationResponse:
     """Deterministic confirmation gate - only persists on explicit True."""
     draft = PENDING_TICKETS.pop(ticket_id, None)
     if draft is None:
