@@ -29,3 +29,6 @@ evidence/traces/*.json
 # Test coverage
 .coverage
 coverage.xml
+
+# Task Reports (local only, not pushed to repo)
+reports/
